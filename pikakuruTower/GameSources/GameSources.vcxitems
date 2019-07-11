@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{8C1D084C-C178-4A5D-84D5-9D8B94E39AB0}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CaptainEnemy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ClearStage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CopyrightStage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)EfkInterface.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Enemy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)FadeSquare.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)FadeStar.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)FastEnemy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Floor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameoverStage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Gimmick.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)HammerEnemy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)LoadingStage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MainStage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MovieStage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MyCamera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MyGameObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NormalEnemy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Player.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Project.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ProjectBehavior.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Scene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SelectStage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ShieldEnemy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Spotlight.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SpotLightRay.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Sprite.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SwimwearEnemy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TitleEnemy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TitleStage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)UI.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Wall.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)WorkEnemy.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CaptainEnemy.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ClearStage.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CopyrightStage.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)EfkInterface.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Enemy.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)FadeSquare.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)FadeStar.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)FastEnemy.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Floor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameoverStage.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Gimmick.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)HammerEnemy.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)LoadingStage.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MainStage.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MovieStage.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MyCamera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MyGameObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NormalEnemy.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Player.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ProjectBehavior.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Scene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SelectStage.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ShieldEnemy.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Spotlight.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SpotLightRay.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sprite.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SwimwearEnemy.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)TitleEnemy.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)TitleStage.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)UI.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Wall.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)WinMain.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)WorkEnemy.cpp" />
+  </ItemGroup>
+</Project>
