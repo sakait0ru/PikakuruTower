@@ -1,0 +1,75 @@
+@startuml test
+
+package basecross64 {
+
+    package Llbs{
+
+        class GameObject {
+
+        }
+    }
+
+    package GameSources{
+
+        class StaticGameObject{
+
+        }  
+        GameObject <|--StaticGameObject
+
+        class GameManager{
+            # Stagenumber
+        }
+        StaticGameObject <|-- GameManager
+
+        'このゲーム専用のGameObject
+        class MyGameObject{
+            - delete()
+        }
+        GameObject <|-- MyGameObject
+
+        class MyCamera {
+
+        }
+        MyGameObject <|-- MyCamera
+
+        class Player{
+            - Spotlight
+        }
+
+        MyGameObject <|--Player
+
+        class Enemy {
+            # StateMachine<Enemy>>
+            # hp
+            # attack
+            # speed
+        }
+        MyGameObject <|---Enemy
+
+        class NomalEnemy{
+
+        }
+        Enemy <|--NomalEnemy
+
+        class ShieldEnemy{
+
+        }
+        Enemy <|-- ShieldEnemy
+
+        
+        class Speednemy{
+
+        }
+        Enemy <|-- Speednemy
+
+        class CaptainEnemy{
+            - CaptainNumber
+
+        }
+        Enemy <|-- CaptainEnemy
+
+    }
+}
+
+
+@enduml
